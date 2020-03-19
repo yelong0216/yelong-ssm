@@ -6,9 +6,7 @@ package org.yelong.ssm;
 import org.yelong.core.model.ModelProperties;
 
 /**
- * @author 彭飞
- * @date 2019年10月18日下午5:02:29
- * @version 1.2
+ * @author PengFei
  */
 public class SsmModelProperties extends ModelProperties{
 
@@ -57,7 +55,6 @@ public class SsmModelProperties extends ModelProperties{
 	 * 此属性存在时，ssmBeanDefinitionBuilderClassName属性将不使用
 	 */
 	private SsmBeanDefinitionBuilder ssmBeanDefinitionBuilder;
-	
 	
 	public String getModelConfigurationBeanName() {
 		return modelConfigurationBeanName;
@@ -114,7 +111,5 @@ public class SsmModelProperties extends ModelProperties{
 	public void setSsmBeanDefinitionBuilder(SsmBeanDefinitionBuilder ssmBeanDefinitionBuilder) {
 		this.ssmBeanDefinitionBuilder = ssmBeanDefinitionBuilder;
 	}
-	
-	
 	
 }

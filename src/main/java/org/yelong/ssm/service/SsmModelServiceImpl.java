@@ -9,9 +9,7 @@ import org.yelong.support.orm.mybaits.pagehelper.AbstractPageHelperModelService;
 
 /**
  * 默认的SsmModelService实现。
- * @author 彭飞
- * @date 2019年10月17日下午5:28:16
- * @version 1.2
+ * @author PengFei
  */
 public class SsmModelServiceImpl extends AbstractPageHelperModelService{
 

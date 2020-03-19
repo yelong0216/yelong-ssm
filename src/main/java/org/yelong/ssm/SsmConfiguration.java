@@ -25,13 +25,11 @@ import org.yelong.support.spring.ApplicationContextDecorator;
 			</array>
 		</property>
 	</bean>
- * @author 彭飞
- * @date 2019年10月17日下午4:53:59
- * @version 1.3
+ * @author PengFei
  */
 public class SsmConfiguration implements BeanDefinitionRegistryPostProcessor{
 
-	public static final String SSM_PROPERTIES_PREFIX = "yelong.ssm";
+	public static final String SSM_PROPERTIES_PREFIX = Ssm.SSM_PROPERTIES_PREFIX;
 
 	/**
 	 * 配置
@@ -95,6 +93,5 @@ public class SsmConfiguration implements BeanDefinitionRegistryPostProcessor{
 	public void postProcessBeanFactory(ConfigurableListableBeanFactory beanFactory) throws BeansException {
 
 	}
-
 
 }

@@ -11,9 +11,7 @@ import org.springframework.beans.factory.support.BeanDefinitionRegistry;
 import org.springframework.util.Assert;
 
 /**
- * @author pengfei<yl1430834495@163.com>
- * @date 2019年11月6日上午9:36:46
- * @version 1.2
+ * @author PengFei
  */
 public class SsmBeanAutoConfigure {
 
@@ -25,9 +23,6 @@ public class SsmBeanAutoConfigure {
 
 	/**
 	 * 简单的bean注入
-	 * @author 彭飞
-	 * @date 2019年10月28日下午4:13:19
-	 * @version 1.2
 	 * @param beanName
 	 * @param beanClass
 	 */
@@ -40,9 +35,6 @@ public class SsmBeanAutoConfigure {
 	
 	/**
 	 * 注册 modelConfiguration、modelService、db、jdbcDB 四个bean
-	 * @date 2019年11月6日上午9:56:37
-	 * @version 1.2
-	 * @throws  
 	 * @throws Exception 
 	 */
 	public void registerGroup(SsmModelProperties ssmModelProperties) throws Exception {
@@ -69,6 +61,5 @@ public class SsmBeanAutoConfigure {
 	public SsmBeanDefinitionBuilder getDefaultSsmBeanDefinitionBuilder() {
 		return new DefaultSsmBeanDefinitionBuilder();
 	}
-	
 	
 }

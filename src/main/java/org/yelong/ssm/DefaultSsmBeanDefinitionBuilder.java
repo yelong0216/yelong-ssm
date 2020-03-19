@@ -21,9 +21,7 @@ import org.yelong.support.orm.mybaits.mapper.DefaultMyBatisBaseDataBaseOperation
 
 /**
  * 默认的ssm bean构建
- * @author pengfei<yl1430834495@163.com>
- * @date 2019年11月6日上午11:39:43
- * @version 1.2
+ * @author PengFei
  */
 public class DefaultSsmBeanDefinitionBuilder implements SsmBeanDefinitionBuilder{
 	
@@ -86,6 +84,5 @@ public class DefaultSsmBeanDefinitionBuilder implements SsmBeanDefinitionBuilder
 	public SsmModelProperties getSsmModelProperties() {
 		return ssmModelProperties;
 	}
-	
 
 }

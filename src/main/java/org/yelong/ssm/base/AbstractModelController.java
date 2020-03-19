@@ -10,16 +10,14 @@ import org.yelong.core.model.service.ModelService;
 import org.yelong.support.spring.mvc.controller.AbstractSpringMvcController;
 
 /**
- * @author pengfei<yl1430834495@163.com>
- * @date 2019年11月18日下午6:47:33
- * @version 1.3
+ * @author PengFei
+ * @deprecated 使用SqlModel可以更好的构建sql
  */
+@Deprecated
 public abstract class AbstractModelController extends AbstractSpringMvcController{
 	
 	/**
 	 * 获取组合条件
-	 * @date 2019年11月13日上午11:32:57
-	 * @version 1.2
 	 * @param modelService
 	 * @return
 	 */
@@ -29,8 +27,6 @@ public abstract class AbstractModelController extends AbstractSpringMvcControlle
 	
 	/**
 	 * 创建简单条件
-	 * @date 2019年11月13日上午11:34:23
-	 * @version 1.2
 	 * @param modelService
 	 * @param condition
 	 * @param params
@@ -42,7 +38,6 @@ public abstract class AbstractModelController extends AbstractSpringMvcControlle
 	
 	/**
 	 * 创建排序片段
-	 * @date 2019年12月11日下午3:53:12
 	 * @param modelService
 	 * @return
 	 */
